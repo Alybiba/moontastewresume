@@ -1,0 +1,545 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    /* none */
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #342628;
+    color: #fff;
+	font-size: 18px;
+    text-align: center;
+	padding: 40px;
+	font-weight: 700;
+}
+
+.logoinnav {
+	position: absolute;
+    top: 15px;
+    left: 100px;
+	width: 70px;
+    height: 70px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+	font-family: "Arial", sans-serif;
+    color: #fff;
+}
+
+.companynameinnav {
+	color: #788402;
+	font-size: 50px;
+	position: absolute;
+    top: 20px;
+    left: 190px;
+}
+
+.homehover {
+    background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.homehover:hover {
+    background-color: #788402;
+	
+}
+
+.menuhover {
+    background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.menuhover:hover {
+    background-color: #788402;
+}
+
+.abouthover {
+    background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.abouthover:hover {
+    background-color: #788402;
+}
+
+.contacthover {
+    background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.contacthover:hover {
+    background-color: #788402;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    justify-content: space-between;
+    padding: 5px;
+	position: absolute;
+    top: 35px;
+    right: 120px;
+	
+	background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.bar {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+}
+
+.hamburger-menu:hover {
+    background-color: #788402;
+}
+/* Style the navigation bar */
+
+
+
+
+
+
+/* Style the main content area */
+main {
+    padding: 370px;
+	color: #fff;
+	background-image: url(../img/bgformoontase.jpg);
+	background-size: cover;
+	background-position: center center;
+	font-family: "Arial", sans-serif;
+}
+
+.h1content {
+	color: #feaa00;
+	text-shadow: 10px 10px 11px rgba(0, 0, 0, 0.5);
+	font-size: 150px;
+	position: absolute;
+    top: 480px;
+    right: 120px;
+	font-weight: 700;
+}
+
+.pcontent {
+	position: absolute;
+    top: 670px;
+    right: 120px;
+	text-shadow: 50px 50px 51px rgba(0, 0, 0, 0.7);
+	font-size: 50px;
+	color: #fff;
+	font-weight: 700;
+}
+
+
+/* ABOUT US */
+
+#aboutcontent {
+    padding: 810px;
+}
+
+.logoinaboutnav {
+    position: absolute;
+    bottom: 828px;
+    left: 80px;
+	width: 120px;
+    height: 120px;
+}
+
+.businessownerresume {
+    color: #788402;
+	text-shadow: 10px 10px 11px rgba(0, 0, 0, 0.5);
+	font-size: 100px;
+	position: absolute;
+    top: 180px;
+    left: 430px;
+	font-weight: 700;
+}
+
+#ptopresume {
+    color: #feaa00;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.p1resume {
+    position: absolute;
+    top: 320px;
+    left: 670px;
+}
+
+.p2resume {
+    position: absolute;
+    top: 320px;
+    left: 820px;
+}
+
+.p3resume {
+    position: absolute;
+    top: 320px;
+    left: 955px;
+}
+
+.p4resume {
+    position: absolute;
+    top: 320px;
+    right: 630px;
+}
+
+.hr1resume {
+    border: 1px solid #788402;
+    position: absolute;
+    top: 350px; /* Adjust the top position as needed */
+    left: 0px;
+    right: 0px;
+    width: 60%;
+}
+
+
+
+#resumecontent {
+    line-height: 30px;
+    color: #feaa00;
+}
+
+.h2a1 {
+    color: #788402;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p1 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 445px;
+    left: 560px;
+    max-width: 795px;
+    text-align: center;
+}
+
+
+
+.h2a2 {
+    color: #788402;
+    position: absolute;
+    top: 585px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p2 {
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 630px;
+    left: 855px;
+    max-width: 795px;
+    text-align: center;
+}
+.a1p3 {
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 660px;
+    left: 875px;
+    max-width: 795px;
+    text-align: center;
+}
+
+
+.a1p4 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 690px;
+    left: 608px;
+    max-width: 795px;
+    text-align: center;
+}
+
+.a1p5 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 720px;
+    left: 599px;
+    max-width: 705px;
+    text-align: center;
+}
+
+.a1p6 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 750px;
+    left: 607px;
+    max-width: 705px;
+    text-align: center;
+}
+
+
+
+.h2a3 {
+    color: #788402;
+    position: absolute;
+    top: 820px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p7 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 870px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p8 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 900px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p9 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 930px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+
+.h2a4 {
+    color: #788402;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p10 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1050px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p11 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1085px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+
+
+
+.h2a7 {
+    color: #788402;
+    position: absolute;
+    top: 1150px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+
+.a1p16 {
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 1200px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.a1p17 {
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 1230px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+
+.h2a8 {
+    color: #788402;
+    position: absolute;
+    top: 1300px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+
+
+.a1p18 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1350px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p19 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1380px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p20 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1410px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p21 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1440px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p22 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1470px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p23 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1500px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p24 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1530px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p25 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1560px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p26 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1590px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.a1p27 {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 1620px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+
+.hr2resume {
+    border: 1px solid #788402;
+    position: absolute;
+    top: 1650px;
+    left: 0px;
+    right: 0px;
+    width: 60%;
+}
+
+
+/* ABOUT US */
+
+
+
+/* Style the footer */
+footer {
+    background-color: #342628;
+    color: #feaa00;
+    text-align: center;
+    padding: 60px;
+	font-size: 20px;
+}
